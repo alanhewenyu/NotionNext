@@ -66,23 +66,7 @@ const BLOG = {
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
-    '"LXGW WenKai"',
-   // '"PingFang SC"',
-   // '-apple-system',
-   // 'BlinkMacSystemFont',
-   // '"Hiragino Sans GB"',
-   // '"Microsoft YaHei"',
-   // '"Segoe UI Emoji"',
-   // '"Segoe UI Symbol"',
-   // '"Segoe UI"',
-   // '"Noto Sans SC"',
-   // 'HarmonyOS_Regular',
-   // '"Helvetica Neue"',
-   // 'Helvetica',
-   // '"Source Han Sans SC"',
-   // 'Arial',
-   // 'sans-serif',
-   // '"Apple Color Emoji"'
+    '"LXGW WenKai"'
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
