@@ -67,35 +67,35 @@ const BLOG = {
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     '"LXGW WenKai"',
-    '"PingFang SC"',
-    '-apple-system',
-    'BlinkMacSystemFont',
-    '"Hiragino Sans GB"',
-    '"Microsoft YaHei"',
-    '"Segoe UI Emoji"',
-    '"Segoe UI Symbol"',
-    '"Segoe UI"',
-    '"Noto Sans SC"',
-    'HarmonyOS_Regular',
-    '"Helvetica Neue"',
-    'Helvetica',
-    '"Source Han Sans SC"',
-    'Arial',
-    'sans-serif',
-    '"Apple Color Emoji"'
+   // '"PingFang SC"',
+   // '-apple-system',
+   // 'BlinkMacSystemFont',
+   // '"Hiragino Sans GB"',
+   // '"Microsoft YaHei"',
+   // '"Segoe UI Emoji"',
+   // '"Segoe UI Symbol"',
+   // '"Segoe UI"',
+   // '"Noto Sans SC"',
+   // 'HarmonyOS_Regular',
+   // '"Helvetica Neue"',
+   // 'Helvetica',
+   // '"Source Han Sans SC"',
+   // 'Arial',
+   // 'sans-serif',
+   // '"Apple Color Emoji"'
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
     '"LXGW WenKai"',
-    'Bitter',
-    '"Noto Serif SC"',
-    'SimSun',
-    '"Times New Roman"',
-    'Times',
-    'serif',
-    '"Segoe UI Emoji"',
-    '"Segoe UI Symbol"',
-    '"Apple Color Emoji"'
+  //  'Bitter',
+  //  '"Noto Serif SC"',
+  //  'SimSun',
+  //  '"Times New Roman"',
+  //  'Times',
+  //  'serif',
+  //  '"Segoe UI Emoji"',
+  //  '"Segoe UI Symbol"',
+  //  '"Apple Color Emoji"'
   ],
   FONT_AWESOME:
     process.env.NEXT_PUBLIC_FONT_AWESOME_PATH ||
@@ -142,7 +142,7 @@ const BLOG = {
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_CATEGORY:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_CATEGORY || true, // 是否显示分类
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_TAG:
-    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || true, // 是否显示标签
+    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || false, // 是否显示标签
 
   // 自定义外部脚本，外部样式
   CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
